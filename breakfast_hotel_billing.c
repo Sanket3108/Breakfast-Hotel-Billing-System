@@ -1,3 +1,5 @@
+// Vector C Mini Project - Breakfast Menu Related
+
 #include <stdio.h>
 
 int main()
