@@ -22,7 +22,7 @@ mainmenu:
 
         case 1:
 
-breakfast:
+        breakfast:
 
             printf("\n------ Breakfast Menu ------\n");
             printf("1. Idly    : Rs.40\n");
@@ -84,7 +84,7 @@ breakfast:
 
         case 2:
 
-tea:
+        tea:
 
             printf("\n------ Tea & Coffee ------\n");
             printf("1. Tea     : Rs.20\n");
@@ -130,7 +130,7 @@ tea:
 
         case 3:
 
-payment:
+        payment:
 
             printf("\n------ Payment ------\n");
             printf("1. Payment by Cash\n");
@@ -166,15 +166,12 @@ payment:
 
                 default:
                     printf("Wrong option\n");
+                    goto payment;
             }
 
         // ---------------- EXIT ----------------
 
         case 4:
-
-            if(total > 0)
-                goto payment;
-
             printf("Exit\n");
             printf("Bye Bye\n");
             return 0;
